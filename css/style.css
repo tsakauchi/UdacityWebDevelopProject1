@@ -1,68 +1,46 @@
 * {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font: 400 1em 'Lato', sans-serif;
     color: #676A57;
 }
 
 .grid {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 16px auto;
 }
 
 img.logo {
     max-width: 100px;
-    margin-bottom: 16px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 16px;
 }
 
 .title {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 3em;
+    font: 300 3em 'Lato', sans-serif;
     text-align: right;
     text-transform: uppercase;
-    margin-bottom: 4px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 4px;
 }
 
 .subtitle {
     font-size: 1em;
     text-align: right;
     text-transform: uppercase;
-    margin-bottom: 4px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 4px;
 }
 
 .separator {
     border-top: 3px solid #BCBBBB;
     width: 100%;
-    margin-bottom: 24px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 24px;
 }
 
 img.main {
-    margin-bottom: 32px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 32px;
 }
 
 .section-title {
     color: #BCBBBB;
     font-size: 2em;
     text-align: left;
-    margin-bottom: 16px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 16px;
 }
 
 div.project {
@@ -73,18 +51,12 @@ h3.project {
     font-size: 2em;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 4px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 4px;
 }
 
 img.project {
     width: 100%;
-    margin-bottom: 4px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 4px;
 }
 
 a.project {
@@ -110,10 +82,7 @@ a.project:hover {
 
 p.project {
     text-align: center;
-    margin-bottom: 16px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 16px;
 }
 
 .row-r {
