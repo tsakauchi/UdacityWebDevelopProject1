@@ -1,72 +1,69 @@
  <!DOCTYPE html>
 <html>
-
 <head>
-<!-- meta charset: specifies encoding (required by HTML standard) -->
-<meta charset="utf-8">
-<!-- meta viewport: enables scaling based on viewport (required for responsiveness) -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- normalize css for css reset (required for consistent viewing across devices/browsers) -->
-<link rel="stylesheet" href="css/normalize.css">
-<!-- framework css for grid-based layout (required for grid-based layout) -->
-<link rel="stylesheet" href="css/framework/main.css">
-<!-- style css for custom styling -->
-<link rel="stylesheet" href="css/style.css">
-<!-- Google web font -->
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,300">
-<!-- page title -->
-<title>Jane Doette - Front-End Ninja Portfolio</title>
+  <!-- meta charset: specifies encoding (required by HTML standard) -->
+  <meta charset="utf-8">
+  <!-- meta viewport: enables scaling based on viewport (required for responsiveness) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- normalize css for css reset (required for consistent viewing across devices/browsers) -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- framework css for grid-based layout (required for grid-based layout) -->
+  <link rel="stylesheet" href="css/framework/main.css">
+  <!-- style css for custom styling -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google web font -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,300">
+  <!-- page title -->
+  <title>Jane Doette - Front-End Ninja Portfolio</title>
 </head>
-
 <body>
-<div class="grid">
-  <div class="row">
-    <div class="col-4">
-      <img class="logo" alt="Logo" src="http://placehold.it/100x100" srcset="http://placehold.it/100x100 100w, http://placehold.it/200x200 200w, http://placehold.it/300x300 300w" sizes="100px">
+  <div class="grid">
+    <div class="row">
+      <div class="col-4">
+        <img class="logo" alt="Logo" src="http://placehold.it/100x100" srcset="http://placehold.it/100x100 100w, http://placehold.it/200x200 200w, http://placehold.it/300x300 300w" sizes="100px">
+      </div>
+      <div class="col-8">
+          <h1 class="title">Jane Doette</h1>
+          <h3 class="subtitle">Front-End Ninja</h3>
+      </div>
     </div>
-    <div class="col-8">
-        <h1 class="title">Jane Doette</h1>
-        <h3 class="subtitle">Front-End Ninja</h3>
+    <div class="row">
+      <hr class="separator">
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <img class="main" alt="Main Picture" src="http://placehold.it/960x400" srcset="http://placehold.it/960x400 960w, http://placehold.it/1440x600 1440w, http://placehold.it/1920x800 1920w" sizes="75vw">
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="section-title">Featured Work</h2>
+    </div>
+    <div class="row row-r">
+      <div class="col-4 col-4r col-4-1">
+        <!-- Site layout adjusted so that the image -->
+        <!-- max width is 240px until 1000w -->
+        <!-- image can grow up to 310px -->
+        <img class="project" alt="Image of Appify" src="http://placehold.it/320x200" srcset="http://placehold.it/320x200 320w, http://placehold.it/480x300 480w, http://placehold.it/640x400 640w, http://placehold.it/960x600 960w" sizes="(min-width: 480px) 38vw, (min-width: 640px) 25vw, 75vw">
+        <h3 class="project">Appify</h3>
+        <p class="project">
+          <a class="project" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+        </p>
+      </div>
+      <div class="col-4 col-4r col-4-2">
+        <img class="project" alt="Image of Sunflower" src="http://placehold.it/320x200" srcset="http://placehold.it/320x200 320w, http://placehold.it/480x300 480w, http://placehold.it/640x400 640w, http://placehold.it/960x600 960w" sizes="(min-width: 480px) 38vw, (min-width: 640px) 25vw, 75vw">
+        <h3 class="project">Sunflower</h3>
+        <p class="project">
+          <a class="project" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+        </p>
+      </div>
+      <div class="col-4 col-4r col-4-3">
+        <img class="project" alt="Image of Bokeh" src="http://placehold.it/320x200" srcset="http://placehold.it/320x200 320w, http://placehold.it/480x300 480w, http://placehold.it/640x400 640w, http://placehold.it/960x600 960w" sizes="(min-width: 480px) 38vw, (min-width: 640px) 25vw, 75vw">
+        <h3 class="project">Bokeh</h3>
+        <p class="project">
+          <a class="project" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+        </p>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <hr class="separator">
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <img class="main" alt="Main Picture" src="http://placehold.it/960x400" srcset="http://placehold.it/960x400 960w, http://placehold.it/1440x600 1440w, http://placehold.it/1920x800 1920w" sizes="75vw">
-    </div>
-  </div>
-  <div class="row">
-    <h2 class="section-title">Featured Work</h2>
-  </div>
-  <div class="row row-r">
-    <div class="col-4 col-4r col-4-1">
-      <!-- Site layout adjusted so that the image -->
-      <!-- max width is 240px until 1000w -->
-      <!-- image can grow up to 310px -->
-      <img class="project" alt="Image of Appify" src="http://placehold.it/320x200" srcset="http://placehold.it/320x200 320w, http://placehold.it/480x300 480w, http://placehold.it/640x400 640w, http://placehold.it/960x600 960w" sizes="(min-width: 480px) 38vw, (min-width: 640px) 25vw, 75vw">
-      <h3 class="project">Appify</h3>
-      <p class="project">
-        <a class="project" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
-      </p>
-    </div>
-    <div class="col-4 col-4r col-4-2">
-      <img class="project" alt="Image of Sunflower" src="http://placehold.it/320x200" srcset="http://placehold.it/320x200 320w, http://placehold.it/480x300 480w, http://placehold.it/640x400 640w, http://placehold.it/960x600 960w" sizes="(min-width: 480px) 38vw, (min-width: 640px) 25vw, 75vw">
-      <h3 class="project">Sunflower</h3>
-      <p class="project">
-        <a class="project" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
-      </p>
-    </div>
-    <div class="col-4 col-4r col-4-3">
-      <img class="project" alt="Image of Bokeh" src="http://placehold.it/320x200" srcset="http://placehold.it/320x200 320w, http://placehold.it/480x300 480w, http://placehold.it/640x400 640w, http://placehold.it/960x600 960w" sizes="(min-width: 480px) 38vw, (min-width: 640px) 25vw, 75vw">
-      <h3 class="project">Bokeh</h3>
-      <p class="project">
-        <a class="project" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
-      </p>
-    </div>
-  </div>
-</div>
 </body>
-
 </html>
