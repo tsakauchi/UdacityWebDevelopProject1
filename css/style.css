@@ -1,6 +1,6 @@
 * {
     font: 400 1em 'Lato', sans-serif;
-    color: #676A57;
+    color: #676a57;
 }
 
 .grid {
@@ -9,50 +9,50 @@
 
 .logo {
     max-width: 100px;
-    margin: 0px 0px 16px;
+    margin: 0 0 16px;
 }
 
 .title {
     font: 300 3em 'Lato', sans-serif;
     text-align: right;
     text-transform: uppercase;
-    margin: 0px 0px 4px;
+    margin: 0 0 4px;
 }
 
 .subtitle {
     font-size: 1em;
     text-align: right;
     text-transform: uppercase;
-    margin: 0px 0px 4px;
+    margin: 0 0 4px;
 }
 
 .separator {
-    border-top: 3px solid #BCBBBB;
+    border-top: 3px solid #bcbbbb;
     width: 100%;
-    margin: 0px 0px 24px;
+    margin: 0 0 24px;
 }
 
-img.main {
-    margin: 0px 0px 32px;
+.main {
+    margin: 0 0 32px;
 }
 
 .section-title {
     color: #BCBBBB;
     font-size: 2em;
     text-align: left;
-    margin: 0px 0px 16px;
+    margin: 0 0 16px;
 }
 
 h3.project {
     font-size: 2em;
     text-align: center;
     text-transform: uppercase;
-    margin: 0px 0px 4px;
+    margin: 0 0 4px;
 }
 
 img.project {
     width: 100%;
-    margin: 0px 0px 4px;
+    margin: 0 0 4px;
 }
 
 a.project {
@@ -60,25 +60,25 @@ a.project {
 }
 
 a.project:link {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 a.project:active {
-    color: #F8981C;
+    color: #f8981c;
 }
 
 a.project:visited {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 a.project:hover {
-    color: #676A57;
+    color: #676a57;
     text-decoration: underline;
 }
 
 p.project {
     text-align: center;
-    margin: 0px 0px 16px;
+    margin: 0 0 16px;
 }
 
 .row-r {
@@ -87,7 +87,7 @@ p.project {
 }
 
 .col-4-1 {
-    padding-left: 0px;
+    padding-left: 0;
     padding-right: 12px;
 }
 
@@ -98,7 +98,7 @@ p.project {
 
 .col-4-3 {
     padding-left: 12px;
-    padding-right: 0px;
+    padding-right: 0;
 }
 
 @media screen and (max-width: 960px) {
@@ -121,17 +121,17 @@ p.project {
 
 @media screen and (max-width: 640px) {
     .col-4-1 {
-        padding-left: 0px;
+        padding-left: 0;
         padding-right: 6px;
     }
 
     .col-4-2 {
         padding-left: 6px;
-        padding-right: 0px;
+        padding-right: 0;
     }
 
     .col-4-3 {
-        padding-left: 0px;
+        padding-left: 0;
         padding-right: 6px;
     }
 
@@ -160,18 +160,18 @@ p.project {
     }
 
     .col-4-1 {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .col-4-2 {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .col-4-3 {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     /* one column occupies the entire row */
