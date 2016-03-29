@@ -5,7 +5,7 @@ This repository contains a website for Udacity Frontend Nanodegree Project 1 Sam
 The objective of this project is to learn how to create a valid HTML5/CSS3 webpage with grid-based layout that accurately represented the mockup design provided by the course.
 
 ## How do I run this project?
-You can view the website by simply opening the index.html.
+You can view the website by simply opening the index.html. Alternatively, you can visit the [GitHub project page for this project](http://tsakauchi.github.io/frontend-nanodegree-sample-portfolio/).
 
 ## About the features implemented
 This project implements the following features:
